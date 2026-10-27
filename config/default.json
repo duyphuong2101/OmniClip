@@ -1,0 +1,34 @@
+{
+  "motionStudioDir": "D:/Motion Studio",
+  "port": 4790,
+  "pollIntervalSeconds": 5,
+  "autoPublish": false,
+  "defaultPlatforms": ["youtube", "tiktok", "facebook", "instagram"],
+  "defaultPrivacy": "public",
+  "defaultHashtags": ["#Trending", "#Viral", "#Shorts", "#Reels", "#Insights"],
+  "platforms": {
+    "youtube": {
+      "name": "YouTube Shorts",
+      "enabled": false,
+      "category": "22",
+      "madeForKids": false
+    },
+    "tiktok": {
+      "name": "TikTok",
+      "enabled": false,
+      "privacyLevel": "PUBLIC_TO_EVERYONE",
+      "allowComments": true,
+      "allowDuet": true,
+      "allowStitch": true
+    },
+    "facebook": {
+      "name": "Facebook Reels",
+      "enabled": false
+    },
+    "instagram": {
+      "name": "Instagram Reels",
+      "enabled": false,
+      "shareToFeed": true
+    }
+  }
+}

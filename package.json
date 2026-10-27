@@ -1,0 +1,26 @@
+{
+  "name": "omniclip",
+  "version": "1.0.0",
+  "description": "Auto-publishing tool connecting Motion Studio videos to YouTube Shorts, TikTok, Facebook Reels, and Instagram Reels",
+  "type": "module",
+  "main": "src/server.mjs",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "ui": "node src/server.mjs",
+    "watch": "node cli.mjs watch",
+    "list": "node cli.mjs list",
+    "publish": "node cli.mjs publish",
+    "test:platforms": "node cli.mjs test"
+  },
+  "keywords": [
+    "motion-studio",
+    "video-publisher",
+    "youtube-shorts",
+    "tiktok",
+    "facebook-reels",
+    "instagram-reels",
+    "auto-post"
+  ],
+  "author": "Motion Studio Pair",
+  "license": "MIT"
+}
